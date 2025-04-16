@@ -4,13 +4,13 @@
 class Jqnpm < Formula
     desc "Package manager built for the command-line JSON processor jq"
     homepage "https://github.com/miguel76/jqnpm"
-    url "https://github.com/miguel76/jqnpm.git", tag: "v0.5.7"
+    url "https://github.com/miguel76/jqnpm.git", tag: "v0.0.1"
     license any_of: ["MIT", "BSD-2-Clause", "GPL-3.0-or-later"]
   
     head do
       url "https://github.com/miguel76/jqnpm.git",
-          branch: "jq-package-root"
-      version "v0.5.7-jq-package-root"
+          branch: "main"
+      version "v0.0.1"
     end
   
     depends_on "bash"

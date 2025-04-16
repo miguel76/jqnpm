@@ -1,21 +1,21 @@
 <p align="center">
-  <a href="https://github.com/joelpurra/jqnpm"><img src="https://raw.githubusercontent.com/joelpurra/jqnpm/master/resources/logotype/penrose-triangle.svg?sanitize=true" alt="jqnpm logotype, a Penrose triangle" width="100" border="0" /></a>
+  <a href="https://github.com/miguel76/jqnpm"><img src="https://raw.githubusercontent.com/miguel76/jqnpm/master/resources/logotype/penrose-triangle.svg?sanitize=true" alt="jqnpm logotype, a Penrose triangle" width="100" border="0" /></a>
 </p>
 
-# [jqnpm](https://github.com/joelpurra/jqnpm) -- [jq](https://stedolan.github.io/jq/) package manager
+# [jqnpm](https://github.com/miguel76/jqnpm) -- [jq](https://stedolan.github.io/jq/) package manager
 
-A package manager built for the command-line JSON processor [`jq`](https://stedolan.github.io/jq/) as an example implementation. This is experimental software. [Want to contribute?](https://github.com/joelpurra/jqnpm/blob/master/CONTRIBUTE.md)
+A package manager built for the command-line JSON processor [`jq`](https://stedolan.github.io/jq/) as an example implementation. This is experimental software. [Want to contribute?](https://github.com/miguel76/jqnpm/blob/master/CONTRIBUTE.md)
 
 
 
-> ## ⚠️ This project has been archived
->
-> No future updates are planned. Feel free to continue using it, but expect no support.
+> ## ⚠️ This is a work-in-progress fork of [joelpurra/jqnpm](https://github.com/joelpurra/jqnpm), which has been archived.
+
+TODO: Test/update with latest jq and publish brew formula
 
 
 
 <p align="center">
-  <a href="https://github.com/joelpurra/jqnpm/">
+  <a href="https://github.com/miguel76/jqnpm/">
     <img src="https://cloud.githubusercontent.com/assets/1398544/5852881/aaefa09c-a21d-11e4-9e7b-7c2c5574e0b6.gif" alt="jqnpm in action" border="0" />
   </a>
 </p>
@@ -23,7 +23,7 @@ A package manager built for the command-line JSON processor [`jq`](https://stedo
 
 - Uses only namespaced packages, for example `jqnpm install joelpurra/jq-stress`, on github.com by default; the example package would automatically be cloned from [`github.com/joelpurra/jq-stress`](https://github.com/joelpurra/jq-stress).
 - Uses strict [semantic versioning](https://semver.org/) tags.
-- Use the [packages in the `jqnpm` wiki](https://github.com/joelpurra/jqnpm/wiki) - it's easy to [create and publish a package of your own](https://github.com/joelpurra/jqnpm#creating-a-package). Share your code! &#x1f493;
+- Use the [packages in the `jqnpm` wiki](https://github.com/miguel76/jqnpm/wiki) - it's easy to [create and publish a package of your own](https://github.com/miguel76/jqnpm#creating-a-package). Share your code! &#x1f493;
 
 
 
@@ -43,21 +43,6 @@ brew install joelpurra/joelpurra/jqnpm
 
 - Clone or download, then symlink `src/jqnpm`. There is no build step.
 - Requirements: [jq](https://stedolan.github.io/jq/) 1.5+, [bash](https://www.gnu.org/software/bash/) 4+, [git](https://git-scm.com/), [shUnit2](https://github.com/kward/shunit2).
-
-
-**Compatibility with `jq`**
-
-- `jqnpm` was tested with jq-1.5, which is [not yet *fully* compatible with `jqnpm`](https://github.com/joelpurra/jqnpm/blob/master/CONTRIBUTE.md#requirements-for-the-jq-binary).
-- For example deep package resolution doesn't work with plain `jq`. Without this feature, every dependency has to be installed in the package root.
-- See also the [`jqnpm`'s `package-root` fork of `jq`](https://github.com/joelpurra/jq/tree/package-root), which fixes these issues.
-- The easiest way to get both is to use `brew` to unlink both `jq` and `jqnpm`, then install the `jqnpm --devel` version which installs the patched versions.
-
-```bash
-brew tap joelpurra/joelpurra
-brew unlink jqnpm
-brew unlink jq
-brew install jqnpm --devel
-```
 
 
 ## Usage
@@ -163,8 +148,8 @@ How to create a package of your own, using `jqnpm generate`. Share your code! &#
 
 ## License
 
-Copyright (c) 2014, 2015, [Joel Purra](https://joelpurra.com/). All rights reserved.
+Copyright (c) 2014, 2015, [Joel Purra](https://joelpurra.com/), 2025 [Miguel Ceriani](https://github.com/miguel76).
 
-When using [**jqnpm**](https://github.com/joelpurra/jqnpm), comply to at least one of the three available licenses: BSD, MIT, GPL. Please see the LICENSE file for details.
+When using [**jqnpm**](https://github.com/miguel76/jqnpm), comply to at least one of the three available licenses: BSD, MIT, GPL. Please see the LICENSE file for details.
 
 

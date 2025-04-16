@@ -1,6 +1,6 @@
 # Contribute to [jqnpm](https://github.com/joelpurra/jqnpm)
 
-This is experimental software, so [feedback is most appreciated](https://github.com/joelpurra/jqnpm/blob/master/CONTRIBUTE.md)!
+This is experimental software, so [feedback is most appreciated](https://github.com/miguel76/jqnpm/blob/master/CONTRIBUTE.md)!
 
 
 

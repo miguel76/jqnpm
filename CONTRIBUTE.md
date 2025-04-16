@@ -1,10 +1,10 @@
-# Contribute to [jqnpm](https://github.com/joelpurra/jqnpm)
+# Contribute to [jqnpm](https://github.com/miguel76/jqnpm)
 
 This is experimental software, so feedback is most appreciated!
 
-- You can [open an issue for your problem or suggestion](https://github.com/joelpurra/jqnpm/issues).
-- Learn how to [create your own package](https://github.com/joelpurra/jqnpm#creating-a-package).
-- Learn how to [contribute code to `jqnpm`](https://github.com/joelpurra/jqnpm/blob/master/BUILDING.md).
+- You can [open an issue for your problem or suggestion](https://github.com/miguel76/jqnpm/issues).
+- Learn how to [create your own package](https://github.com/miguel76/jqnpm#creating-a-package).
+- Learn how to [contribute code to `jqnpm`](https://github.com/miguel76/jqnpm/blob/master/BUILDING.md).
 
 
 
